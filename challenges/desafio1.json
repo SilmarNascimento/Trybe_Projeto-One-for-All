@@ -9,7 +9,7 @@
   "coluna_seguindo_artistas": "artist_id",
   "tabela_artista": "Artists",
   "coluna_artista": "name",
-  "tabela_album": "Albuns",
+  "tabela_album": "Albums",
   "coluna_album": "title",
   "tabela_cancoes": "Songs",
   "coluna_cancoes": "title"
