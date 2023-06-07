@@ -63,7 +63,7 @@ CREATE TABLE SpotifyClone.Artists (
     CONSTRAINT PRIMARY KEY (artist_id)
 ) engine = InnoDB;
 
-INSERT INTO SpotifyClone.Artists (artist_id, Name) VALUES
+INSERT INTO SpotifyClone.Artists (artist_id, name) VALUES
 	('1', 'Baco Exu do Blues'),
 	('2', 'Beyoncé'),
 	('3', 'Blind Guardian'),
