@@ -1,3 +1,27 @@
+CREATE TABLE FavoriteSongs 
+(
+    user_id	INT,
+    song_id	INT,
+    CONSTRAINT PRIMARY KEY (user_id, song_id),
+      FOREIGN KEY (user_id) REFERENCES Users (user_id),
+      FOREIGN KEY (song_id) REFERENCES Songs (song_id)
+) engine = InnoDB;
+
+INSERT INTO FavoriteSongs (user_id, song_id) VALUES
+	('1', '1'),
+	('1', '3'),
+	('1', '5'),
+	('2', '4'),
+	('3', '2'),
+	('3', '1'),
+	('4', '6'),
+	('4', '4'),
+	('5', '5'),
+	('5', '10'),
+	('8', '4'),
+	('9', '6'),
+	('10', '1');
+
 -- Descomente e altere as linhas abaixo:
 
 -- CREATE TABLE SpotifyClone.tabela(
